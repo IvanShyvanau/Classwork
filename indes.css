@@ -48,3 +48,20 @@ height: 4rem;
 color: red;
  }
 
+.box{
+  height: 100px;
+  width: 150px;
+  background-color: #000;
+}
+
+.box:hover{
+  background-color: #26597456;
+  height: 300px;
+  width: 450px;
+}
+
+
+a:active{
+  font-size:40px;
+  transition: all 0.3s ease;
+}
